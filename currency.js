@@ -27,9 +27,9 @@ class Currency {
       fetch(
         this.url +
           "to=" +
-          this.firstCurrency +
-          "&from=" +
           this.secondCurrency +
+          "&from=" +
+          this.firstCurrency +
           "&amount=" +
           this.amount,
         requestOptions
